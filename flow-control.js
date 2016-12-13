@@ -23,18 +23,17 @@ function ageChecker(age) {
     'You are a kid';
   }
   else {
-    return 'You are a grownup'
+    return 'You are a grownup';
   }
 
 }
 
 function ternaryTeenager(age) {
-return age >=13 && age <=19 ? 'You are a teenager' : 'You are not a teenager'
+return age >=13 && age <=19 ? 'You are a teenager' : 'You are not a teenager';
 }
 
 function switchAge(age) {
-  var age >=13 && age <=19
-  switch (age) {
+  switch (age >=13 && age <=19) {
     case 13:
     case 14:
     case 15:
